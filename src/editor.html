@@ -1,0 +1,23 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" href="editor.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
+    <script type="text/javascript" src="editor.js"></script>  
+  </head>
+  <body>
+    <div class="sample-toolbar">
+      <a href="javascript:void(0)" onclick="format('bold')"><span class="fa fa-bold fa-fw"></span></a>
+      <a href="javascript:void(0)" onclick="format('italic')"><span class="fa fa-italic fa-fw"></span></a>
+      <a href="javascript:void(0)" onclick="format('insertunorderedlist')"><span class="fa fa-list fa-fw"></span></a>
+      <a href="javascript:void(0)" onclick="setUrl()"><span class="fa fa-link fa-fw"></span></a>
+      <a href="javascript:void(0)" onclick="saveText()"><span class="fa fa-save fa-fw"></span></a>
+      <span><input id="txtFormatUrl" placeholder="url" class="form-control"></span>
+    </div>
+    <div class="editor" id="sampleeditor">
+    </div>
+    <script>
+    </script>
+  </body>
+</html>
+
